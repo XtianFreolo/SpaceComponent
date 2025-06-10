@@ -1,3 +1,4 @@
+import styles from "./MissionCard.module.css";
 
 function MissionCard({ name, status, crew }) {
     return (
@@ -11,3 +12,4 @@ function MissionCard({ name, status, crew }) {
     );
 }
 
+export default MissionCard;

@@ -1,3 +1,5 @@
+import styles from './MissionFilter.module.css';
+
 
 function MissionFilter({ setFilter }) {
 
@@ -20,3 +22,5 @@ function MissionFilter({ setFilter }) {
         </>
     );
 }
+
+export default MissionFilter;
